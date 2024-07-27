@@ -6,5 +6,4 @@ for i in range(t):
     answer = ''
     for char in s:
         answer += char * r
-    print(result)
-    print(answer)
+        print(answer)
