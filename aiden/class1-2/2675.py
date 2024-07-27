@@ -7,3 +7,4 @@ for i in range(t):
     for char in s:
         answer += char * r
     print(result)
+    print(answer)
