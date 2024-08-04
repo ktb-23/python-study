@@ -1,6 +1,5 @@
 n,k = map(int,input().split())
 
-
 def josephus(n,k):
     
     arr = list(range(1,n+1))
@@ -12,6 +11,5 @@ def josephus(n,k):
         result.append(arr.pop(index))        
     
     return tuple(result)
-
 
 print("<" + ", ".join(map(str, josephus(n, k))) + ">")
