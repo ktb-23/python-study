@@ -7,7 +7,6 @@ n = int(input())
 tree = [list(map(int, input().split())) for _ in range(n)]
 
 dp = [([0] * i) for i in range(1, n + 1)]
-
 dp[0][0] = tree[0][0]
 
 for i in range(1, n):

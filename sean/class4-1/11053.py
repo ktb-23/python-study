@@ -8,7 +8,6 @@ sequence = list(map(int, input().split()))
 memo = [(value, 1) for value in sequence]
 
 answer = 1
-
 for i in range(n):
     for j in range(i):
         max_value, count = memo[j]
